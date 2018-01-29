@@ -1,0 +1,5 @@
+.idea
+node_modules
+*.log
+admin_api/public/js/dist/
+package-lock.json

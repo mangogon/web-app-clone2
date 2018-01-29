@@ -1,0 +1,352 @@
+[
+  {
+    "id"       : 1,
+    "text"     : "I need a second monitor!",
+    "character": "Team member",
+    "type"     : "project",
+    "crazy"    : "no",
+    "options"  : {
+      "a": {
+        "label" : "sure",
+        "values": {
+          "team"  : 0,
+          "morale": 1,
+          "money" : 0
+        }
+      },
+      "b": {
+        "label" : "no",
+        "values": {
+          "team"  : 0,
+          "morale": -1,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 2,
+    "text"     : "We need to fire people because of company optimization",
+    "character": "HR",
+    "type"     : "company",
+    "crazy"    : "no",
+    "options"  : {
+      "a": {
+        "label" : "yes",
+        "values": {
+          "team"  : -1,
+          "morale": -1,
+          "money" : 0
+        }
+      },
+      "b": {
+        "label" : "no",
+        "values": {
+          "team"  : 0,
+          "morale": 1,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 3,
+    "text"     : "We will introduce new policy regarding access to corporate network!",
+    "character": "IT",
+    "type"     : "environment",
+    "crazy"    : "no",
+    "options"  : {
+      "a": {
+        "label" : "Burocracy rules!",
+        "values": {
+          "team"  : 0,
+          "morale": -1,
+          "money" : 0
+        }
+      },
+      "b": {
+        "label" : "On my dead body!",
+        "values": {
+          "team"  : 0,
+          "morale": -1,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 4,
+    "text"     : "Client just provided a new set of requirements after our demo, where we agreed to existing ones!",
+    "character": "Team member",
+    "type"     : "project",
+    "crazy"    : "no",
+    "options"  : {
+      "a": {
+        "label" : "Let's do it!",
+        "values": {
+          "team"  : -1,
+          "morale": -1,
+          "money" : 0
+        }
+      },
+      "b": {
+        "label" : "no",
+        "values": {
+          "team"  : 0,
+          "morale": 1,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 5,
+    "text"     : "IT wants everybody to run a blood test before letting anybody into the network?",
+    "character": "IT",
+    "type"     : "environment",
+    "crazy"    : "yes",
+    "options"  : {
+      "a": {
+        "label" : "Here's my blood",
+        "values": {
+          "team"  : 0,
+          "morale": -1,
+          "money" : 0
+        }
+      },
+      "b": {
+        "label" : "no",
+        "values": {
+          "team"  : 0,
+          "morale": 1,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 6,
+    "text"     : "Please make me a coffee",
+    "character": "CEO",
+    "type"     : "management",
+    "crazy"    : "yes",
+    "options"  : {
+      "a": {
+        "label" : "sure",
+        "values": {
+          "team"  : -1,
+          "morale": 1,
+          "money" : 1
+        }
+      },
+      "b": {
+        "label" : "no",
+        "values": {
+          "team"  : 0,
+          "morale": -1,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 7,
+    "text"     : "Hey! I want bigger salary!",
+    "character": "Team member",
+    "type"     : "project",
+    "crazy"    : "no",
+    "options"  : {
+      "a": {
+        "label" : "sure",
+        "values": {
+          "team"  : 0,
+          "morale": 1,
+          "money" : -1
+        }
+      },
+      "b": {
+        "label" : "no",
+        "values": {
+          "team"  : 0,
+          "morale": -1,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 8,
+    "text"     : "Designer and Architect having a love affair, what shall we do?",
+    "character": "HR",
+    "type"     : "company",
+    "crazy"    : "yes",
+    "options"  : {
+      "a": {
+        "label" : "let them marry",
+        "values": {
+          "team"  : 0,
+          "morale": 1,
+          "money" : 0
+        }
+      },
+      "b": {
+        "label" : "fire both",
+        "values": {
+          "team"  : -2,
+          "morale": 1,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 9,
+    "text"     : "Account Manager wants to change your title to Slave Leader to better represent your role",
+    "character": "Account Mgr",
+    "type"     : "project",
+    "crazy"    : "yes",
+    "options"  : {
+      "a": {
+        "label" : "I like it",
+        "values": {
+          "team"  : 0,
+          "morale": -1,
+          "money" : 1
+        }
+      },
+      "b": {
+        "label" : "no",
+        "values": {
+          "team"  : 0,
+          "morale": 1,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 10,
+    "text"     : "Recruiting provided a candidate who likes pineapple pizza, what shall we do?",
+    "character": "Recruiting",
+    "type"     : "company",
+    "crazy"    : "yes",
+    "options"  : {
+      "a": {
+        "label" : "Hire!",
+        "values": {
+          "team"  : 1,
+          "morale": -1,
+          "money" : 0
+        }
+      },
+      "b": {
+        "label" : "no",
+        "values": {
+          "team"  : 0,
+          "morale": 0,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 11,
+    "text"     : "Company janitor says he knows how to program and he even programmed TV set to turn off at 10pm",
+    "character": "Recruiting",
+    "type"     : "company",
+    "crazy"    : "yes",
+    "options"  : {
+      "a": {
+        "label" : "Hire!",
+        "values": {
+          "team"  : 1,
+          "morale": -1,
+          "money" : -1
+        }
+      },
+      "b": {
+        "label" : "no",
+        "values": {
+          "team"  : 0,
+          "morale": 0,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 12,
+    "text"     : "We need animators for team building!",
+    "character": "HR",
+    "type"     : "company",
+    "crazy"    : "yes",
+    "options"  : {
+      "a": {
+        "label" : "Hookers!",
+        "values": {
+          "team"  : 0,
+          "morale": 1,
+          "money" : -1
+        }
+      },
+      "b": {
+        "label" : "Lotto!",
+        "values": {
+          "team"  : 0,
+          "morale": -1,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 13,
+    "text"     : "Client wants to do a demo at 2am because he can't sleep?",
+    "character": "Account Mgr",
+    "type"     : "management",
+    "crazy"    : "yes",
+    "options"  : {
+      "a": {
+        "label" : "Always ready!",
+        "values": {
+          "team"  : 0,
+          "morale": -1,
+          "money" : -1
+        }
+      },
+      "b": {
+        "label" : "no",
+        "values": {
+          "team"  : 0,
+          "morale": 0,
+          "money" : 0
+        }
+      }
+    }
+  },
+  {
+    "id"       : 14,
+    "text"     : "Team member want's to re-architect the system because he wants to try out a new design pattern",
+    "character": "Team member",
+    "type"     : "project",
+    "crazy"    : "no",
+    "options"  : {
+      "a": {
+        "label" : "I like design patterns",
+        "values": {
+          "team"  : 0,
+          "morale": 1,
+          "money" : -1
+        }
+      },
+      "b": {
+        "label" : "No way",
+        "values": {
+          "team"  : 0,
+          "morale": -1,
+          "money" : 1
+        }
+      }
+    }
+  }
+]
